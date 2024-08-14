@@ -4,7 +4,7 @@ function App() {
   const timestamp = new Date();
   let  hour = timestamp.getHours();
   let greeting;
-  let  styleColor="";
+  let  styleColor;
 
   if(hour <= 11){
     greeting = "Morning"
